@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #fff;
+}
+
+.todo-input {
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 70px auto 40px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: brown;
+}
+
+#userInput {
+  border: none;
+  outline: none;
+  padding: 2px 8px;
+  font-size: 15px;
+  background: #f5eaea;
+  border-radius: 5px;
+}
+
+.add-button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.not-completed-list,
+.completed-list {
+  font-size: 17px;
+  padding: 20px 5px;
+  line-height: 30px;
+}
+
+.completed-list {
+  color: yellowgreen;
+}
+
+li {
+  list-style: none;
+}
